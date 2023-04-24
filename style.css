@@ -1,0 +1,536 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.book {
+  color: black;
+  background-color: #CEC3AF;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background-color 1s;
+
+}
+
+.book:hover {
+  background: #fff;
+  color: #000;
+}
+
+.book:visited {
+  color: black;
+}
+
+
+.logo {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* font-style: italic; */
+  padding: 0 2rem;
+  font-family: 'Lago', san serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 0 1.5rem;
+}
+
+nav a:hover {
+  color: #c1a819;
+
+}
+
+.hero {
+  background: #fff;
+}
+
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  height: 62.52vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+  /* margin-top: 3%; */
+  background-color: #dadada;
+}
+
+.hero-container2 {
+  height: 800px;
+  background-image: url(salonchair2.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  padding: 0rem 2rem;
+}
+
+.column-left h2 {
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-size: 2rem;
+  font-family: 'Give You Glory', sans serif;
+}
+
+.column-left p {
+  margin-top: 0;
+  font-size: 1.3em;
+  line-height: 1.5;
+  font-family: 'Abel' sans serif;
+  margin-bottom: 3%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 4%;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+button:hover,
+.clicked:hover {
+  background: #fff;
+  color: #000;
+}
+
+button:visited,
+.clicked:visited {
+  color: #CEC3AF;
+
+}
+
+Try it Yourself » .column-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Steph's add on's 
+
+
+Page 1 */
+.salon3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.salon3 {
+  background-image: url(salonhome.jpg);
+  min-height: 750px;
+  opacity: 0.92;
+}
+
+.above-center {
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  font-family: 'Lato', sans-serif;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  opacity: 0.7;
+  color: black;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  font-family: sans serif;
+  margin-left: 10px;
+  transition: all 1s;
+}
+
+
+.header-text {
+  text-align: center;
+  font-family: 'Give You Glory', cursive;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.centered:hover {
+  background-color: #CEC3AF;
+  color: #111;
+}
+
+/* .about {
+  text-align: center;
+} */
+
+.about:visited {
+  color: #CEC3AF;
+}
+
+
+.salon4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.salon4 {
+  background-image: url(salonpic1.jpg);
+  min-height: 720px;
+
+}
+
+.centered2 {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(10%, 40%);
+  padding: 20px;
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  font-family: sans serif;
+  margin-left: 30px;
+  background-color: white;
+}
+
+.centered2 a {
+  text-decoration: none;
+}
+
+.centered2 a:visited {
+  color: black;
+}
+
+
+/* Services Page */
+.nav {
+  height: 2em;
+}
+
+.services {
+  font-weight: bold;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-top: .5em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  background-color: #CEC3AF;
+  transition: all 1s ease;
+}
+
+.services:hover {
+  background-color: white;
+  color: #c1a819;
+  ;
+}
+
+.description {
+  padding-left: 280px;
+  padding-right: 280px;
+  text-align: center;
+  margin-bottom: 4em;
+  line-height: 2;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.quote {
+  margin-top: 60px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  line-height: 1.5em;
+  font-family: 'Lato', sans-serif;
+}
+
+.quote-name {
+  margin-top: 20px;
+  font-size: small;
+  letter-spacing: .65em;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 280px;
+}
+
+.salon1 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.salon1 {
+  background-image: url(stylist.jpg);
+  min-height: 400px;
+  opacity: 0.92;
+}
+
+
+/* ROWS */
+.container {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.pricelist {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.pricelist-title {
+  padding-bottom: 20px;
+  margin-left: 25%;
+  font-style: bold;
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+}
+
+.pricelist-container li {
+  display: flex;
+  color: #1d1f22;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  padding: 0.1rem 0;
+  width: 50%;
+  margin-left: 25%;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  font-family: 'Trebuchet MS';
+}
+
+.row-left p {
+  font-size: small;
+  font-weight: lighter;
+  padding-bottom: 30px;
+}
+
+.services-button {
+  vertical-align: right;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  color: #fdcc04;
+  background: #000;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+/* About */
+
+.nav-third {
+  background: white;
+  transition: all 1s;
+}
+
+.nav-third a {
+  font-family: 'Trebuchet MS';
+  text-decoration: none;
+  color: black;
+  /* padding: 0 1.5rem; */
+}
+
+.nav-third a:hover {
+  color: #c1a819;
+
+}
+
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 0;
+  font-size: 3em;
+  font-family: 'Give you Glory';
+}
+
+/* Hero Image and Text */
+
+.header {
+  background: white;
+  margin-top: 0;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 120vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+  margin: 0;
+}
+
+/* Left Side */
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 600px;
+  height: 800px;
+  margin-left: 0;
+}
+
+.left-side h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.left-side p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: 'Give You Glory', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* Right Side */
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: #000;
+  padding: 2rem;
+  width: 90%;
+  line-height: 2em;
+
+}
+
+.quote-text {
+  text-align: left;
+  font-family: 'Give You Glory', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 1.5em;
+}
+
+.quote-subtext {
+  font-weight: bold;
+}
+
+.salon2 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.salon2 {
+  background-image: url(openfloorplan.jpg);
+  min-height: 800px;
+  opacity: 0.92;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.g-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Give you Glory';
+}
+
+img {
+  display: inline-block;
+  justify-content: center;
+  vertical-align: middle;
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+
+.grow img {
+  transition: 1s ease;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+
+/* Contact Form */

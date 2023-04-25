@@ -65,7 +65,7 @@ nav a:hover {
   height: 62.52vh;
   padding: 3rem calc((100vw - 1300px) / 2);
   /* margin-top: 3%; */
-  background-color: #CEC3AF;
+  background-color: #676262;
 }
 
 .hero-container2 {
@@ -84,7 +84,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: #000;
+  color: #dfd7c7;
   padding: 0rem 2rem;
 }
 
@@ -127,7 +127,6 @@ button:hover,
 button:visited,
 .clicked:visited {
   color: #CEC3AF;
-
 }
 
 Try it Yourself » .column-right {

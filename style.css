@@ -62,7 +62,7 @@ nav a:hover {
 .hero-container {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
-  height: 62.52vh;
+  height: 65vh;
   padding: 3rem calc((100vw - 1300px) / 2);
   /* margin-top: 3%; */
   background-color: #676262;
@@ -246,7 +246,7 @@ Page 1 */
 .centered2 {
   position: absolute;
   top: 60%;
-  left: 55%;
+  left: 48%;
   transform: translate(10%, 40%);
   padding: 20px;
   color: black;

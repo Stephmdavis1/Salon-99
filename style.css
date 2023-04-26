@@ -26,11 +26,11 @@ nav {
 
 .book:hover {
   background: #fff;
-  color: #000;
+  color: #676262;
 }
 
 .book:visited {
-  color: black;
+  color: #676262;
 }
 
 
@@ -429,7 +429,7 @@ Page 1 */
 .header-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 120vh;
+  height: 130vh;
   padding: 3rem calc((100vw - 1300px) / 2);
   margin: 0;
 }
